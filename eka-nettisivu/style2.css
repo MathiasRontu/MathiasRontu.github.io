@@ -1,0 +1,44 @@
+html {
+	background-color: #ADD8E6;
+}
+
+h1 {
+	color: white;
+}
+h2 {
+	color: white;
+}
+
+p {
+	color: white;
+}
+
+#lista {
+	color: white;
+}
+
+ol {
+	color: white;
+}
+
+ol {
+	background-color: pink;
+}
+
+#lista {
+	background-color: pink;
+}
+
+html {
+	font-family: arial, sans-serif;
+}
+
+.hieno {
+	text-align: center;
+	}
+	
+h1 {
+	border-width: 3px;
+	border-style: solid;
+	border-color: white;
+}
