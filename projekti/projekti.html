@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<Head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width-device, initial-scale=1.0">
+	<title>Paavon kitarat</title>
+	<link rel="stylesheet" href="projekti.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,400&family=Roboto:ital,wght@0,300;0,400;0,700;1,400&display=swap" rel="stylesheet">
+</head>
+<body>
+	<header>
+		<div class="hederi">
+		<h1 class="otsikko">Paavon kitarat</h1>
+		<ul>
+			<li class="lista"><a href="projekti-bs.html" class="listaosa">Kitarat ja hinnat</a></li>
+			<li class="lista"><a href="#huolto" class="listaosa">Huolto</a></li>
+			<li class="lista"><a href="#toimitus" class="listaosa">Toimitukset</a></li>
+			<li class="lista"><a href="#uudet" class="listaosa">Uudet tekniikat</a></li>
+		</ul>
+		</div>
+	</header>
+	<main>
+		<article class="aloitus">
+			<section class="alkuhederi">
+				<h1 class="juuh">Paavon kitarat</h1>
+			</section>
+			<section class="alkuteksti">
+				<p class="text">Laadukkaat kitarat ja soitinhuollot edullisesti.</p>
+			</section>
+		</article>
+		<section class="yleinen">
+			<h2 class="laaja">Tietoa meistä</h2>
+			<p class="eka">Olemme vuonna 2022 toiminnan aloittanut kitaramyymälä. Keskitymme pääasiassa sähkökitaroihin, mutta joitain akustisiakin löytyy. Kaikki sähkökitaramme ovat tällä hetkellä ESP merkkisiä.
+			Liikkeemme sijaitsee Helsingin keskustassa, osoitteessa Paavonkatu 123. Kitaroiden lisäksi meillä on myymälässä kaikki tarvittavat kitaratarvikkeet, ja myös kitaranhuolto on mahdollista. Lisää huolloista <a href=".">täällä </a>.</p>
+			<h3>Yhteystiedot</h3>
+			<p>Voit ottaa yhteyttä meihin sähköpostitse, paavon.kitarat@sposti.com, tai soittamalla, 0441234567. Olemme auki ma-pe 10-18 ja la-su 10-15.
+			Kaikilla kitaroillamme on 1 vuoden takuu. Jos haluat jättää jotain palautetta, voit täyttää alla olevan lomakkeen.</p>
+			<form action="/paavonkitara">
+				<label for="aihe">Palautteen aihe:</label><br>
+				<input type="text" id="aihe" name="aihe"><br>
+				<label for="palaute">Selitys tapahtumasta:</label><br>
+				<input type="text" id="palaute" name="palaute"><br>
+				<input type="submit" value="lähetä">
+			</form>
+		</section>
+		<section class="huolto" id="huolto">
+			<h2>Huolto</h2>
+			<p>Meiltä saa myös soitinhuoltopalveluita. Tuo kitara myymälään, niin käydään läpi mitä soittimelle pitää tehdä.
+			Veloitus menee huoltoon menneen ajan mukaan. Tuntihinta on 65€. Hintaan lisätään vielä uusien kielten hinnat.
+			Huollon yhteydessä voimme vaihtaa kitaraan myös uusia osia, kuten mikrofonit tai virittimet. Silloin huollon hintaan lisätään vielä
+			uusien osien hinnat.</p>
+			<p>Normaali huolto maksaa useimmiten noin 75€ (uudet kielet laskettu mukaan hintaan), kestää noin tunnin. Perushuollossa
+			teemme kitaraan perus säädöt kaulaan ja tallaan, tarkistamme elektroniikat ja öljyämme otelaudan.</p>
+				<img class="skebahuolto" src="huolto.jpg" alt="Kitarahuolto"/>
+		</section>
+		<section class="toimitus" id="toimitus">
+			<h2>Toimitukset</h2>
+			<p>Jos et pääse paikan päälle ostamaan tai itse pysty kuljettamaan kitaraa, voit myös tilata toimituksen.
+			Vaihtoehtoja on useita, suurin osa tuo soittimen lähimmälle noutopisteelle, mutta myös suoraan kotiovelle tilaaminen onnistuu. Alla vaihtoehdot.
+			</p>
+			<ul class="toimitusvalikoima">
+				<li>Posti alk. 9,99€</li>
+				<li>PostNord alk. 8,99€</li>
+				<li>Matkahuolto alk. 8,99€</li>
+				<li>Paavon premium kotiinkuljetus alk. 345,67€</li>
+			</ul>
+			<img class="paku" src="kotiinkuljetus.webp" alt="pakettiauto" />
+		</section>
+		<section class="uudet" id="uudet">
+			<h2>Uudet tekniikat</h2>
+			<p>Projektissa piti käyttää uusia html- ja css-tekniikoita, alla ne mitä itse opettelin.</p>
+			<ul>
+				<li>Html-form</li>
+				<li>Linear-gradient</li>
+				<li>Box-shadow</li>
+				<li>Background-image</li>
+			</ul>
+		</section>
+	</main>
+	<footer>
+		<ul class="fuutteri">
+				<li class="fuutterilista">Paavonkatu 123</li>
+				<li class="fuutterilista">Ma-Pe 10-18</li>
+				<li class="fuutterilista">La-Su 10-15</li>
+				<li class="fuutterilista">044 123 5679</li>
+				<li class="fuutterilista">paavon.kitarat@sposti.com</li>
+		</ul>
+	</footer>
+</body>
+</html>
